@@ -1,0 +1,30 @@
+.peg{
+  float: left;
+  background: #fab;
+  width: 302px;
+  height: 300px;
+  position: relative;
+}
+
+.peg:hover{
+  background: grey;
+}
+
+.plateslot{
+  width: 302px;
+  position: absolute;
+  bottom: 0;
+}
+
+.plate{
+  text-align: center;
+  background: yellow;
+  border: 1px solid red;
+  border-bottom: none;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.firstClick{
+  background: blue;
+}

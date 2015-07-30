@@ -1,0 +1,39 @@
+.ttt-box{
+  width: 310px;
+  margin: 0 auto;
+}
+
+.grid-row{
+
+}
+
+.grid{
+  text-align: center;
+  border: 1px solid white;
+  height: 100px;
+  width: 100px;
+  float: left;
+  background: grey;
+}
+
+.grid:hover{
+  background: yellow;
+}
+
+.group:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.x{
+  font-size: 100px;
+  background: white;
+  color: #fab;
+}
+
+.o{
+  font-size: 100px;
+  background: white;
+  color: blue;
+}
